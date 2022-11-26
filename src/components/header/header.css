@@ -59,7 +59,7 @@ header {
     font-size: 2em;
     letter-spacing: 0.5rem;
     overflow: hidden;
-    background: linear-gradient(90deg, var(--color-bg-variant), var(--color-light), var(--color-primary-variant));
+    background: linear-gradient(90deg, var(--color-bg-variant), white, var(--color-primary-variant));
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 3s linear infinite;

@@ -24,6 +24,10 @@ const About = () => {
         <dic className="container about__container">
             {/* About Container First Item */}
             <div className="about__me">
+
+              {/* IMAGE ANIMATION */}
+            
+              {/* IMAGE ANIMATION END */}
                 <div className="about__me__image">
                   <img src={PROFILE4} alt="About Me" /> 
                 </div>

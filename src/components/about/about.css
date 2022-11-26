@@ -26,6 +26,7 @@
 
 .about__me__image:hover {
     transform: rotate(0deg);
+    cursor:pointer;
 }
 
 
@@ -130,3 +131,18 @@
         margin: 1.5rem 0;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMAGE ANIMATION */
