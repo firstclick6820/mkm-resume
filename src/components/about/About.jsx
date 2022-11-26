@@ -6,6 +6,7 @@ import './about.css';
 import PROFILE1 from '../../assets/images/PROFILE1.png';
 import PROFILE2 from '../../assets/images/PROFILE2.png';
 import PROFILE3 from '../../assets/images/PROFILE3.png';
+import PROFILE4 from '../../assets/images/PROFILE4.jpg'
 // Import react Icons
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
@@ -24,7 +25,7 @@ const About = () => {
             {/* About Container First Item */}
             <div className="about__me">
                 <div className="about__me__image">
-                  <img src={PROFILE3} alt="About Me" /> 
+                  <img src={PROFILE4} alt="About Me" /> 
                 </div>
             </div>
 

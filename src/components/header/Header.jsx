@@ -44,7 +44,7 @@ const Header = () => {
           <HeaderSocial />
 
           <div className="me">
-            <img src={PROFILE1} alt="MKM Personal " className="me__image"/>
+            <img src={PROFILE3} alt="MKM Personal " className="me__image"/>
           </div>
 
 

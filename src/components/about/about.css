@@ -24,10 +24,13 @@
 
 
 
-
 .about__me__image:hover {
     transform: rotate(0deg);
 }
+
+
+
+
 
 .about__content {
     margin: 0 auto;

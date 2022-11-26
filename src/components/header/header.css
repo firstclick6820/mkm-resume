@@ -110,7 +110,7 @@ header {
 /* ME  */
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(transparent,var(--color-primary), transparent, var(--color-bg));
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -123,9 +123,9 @@ header {
 
 .me__image {
     position: absolute;
-    left: 0;
-    right: -10rem;
-   width: 110%;
+    left: 1.2rem;
+    bottom: 7rem;
+   width: 90%;
   
 }
 .target__text {
