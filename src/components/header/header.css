@@ -1,0 +1,192 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    
+
+}
+
+
+/* Text Animation */
+
+  
+  #flip {
+    height:2rem;
+    overflow:hidden;
+    transition: var(--transition);
+  }
+  
+  #flip > div > div {
+    padding:1rem 2.1rem;
+    height:3.5rem;
+    margin-bottom:3rem;
+    display:inline-block;
+    font-size: 1rem;
+    
+  }
+  
+  #flip div:first-child {
+    animation: show 6s ease infinite;
+    transition: var(--transition);
+  }
+  
+
+  
+  @keyframes show {
+    0% {margin-top:-300px;}
+    5% {margin-top:-200px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-300px;}
+  }
+
+
+  .animationClass {
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.5rem;
+    overflow: hidden;
+    background: linear-gradient(90deg, var(--color-bg-variant), var(--color-light), var(--color-primary-variant));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+/* =================================== CTA (CALL TO ACTION) SYLTES ==========================*/
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+
+
+
+/* HEADER SOCIALS */
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.8rem;
+    position: absolute;
+    left:0;
+    bottom:3rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 2px;
+    height: 3rem;
+    background-color: var(--color-primary);
+}
+
+
+/* ME  */
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.me__image {
+    position: absolute;
+    left: 0;
+    right: -10rem;
+   width: 110%;
+  
+}
+.target__text {
+    color: orange;
+}
+
+
+/* ============================SCROLL UP STYLES ================================ */
+.scroll_down__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    gap: 2.5rem;
+    bottom: 4rem;
+}
+
+.scroll__down {
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.scroll_down__wrapper::before {
+    content: "";
+    width: 2px;
+    height: 3rem;
+    background-color: var(--color-primary);
+}
+
+
+
+/* ===================================END OF SCROLL UP ==================================== */
+
+
+/* Media  Query  */
+/* Tablets and Medium Devices */
+
+@media screen and (max-width: 1024px) { 
+    header {
+        height: 68vh;
+    }
+
+
+}
+
+
+/* Media  Query  */
+/* Small Devices */
+@media screen and (max-width: 600px) { 
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display:none;
+    }
+
+    
+
+}
+
