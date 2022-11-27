@@ -12,14 +12,26 @@ import PROFILE3 from '../../assets/images/PROFILE3.png';
 // Import custom components
 import CTA from '../general/CTA';
 import HeaderSocial from './HeaderSocial';
+import ANIMATION from '../general/ANIMATION';
 
 
 
 const Header = () => {
   return (
     <header id="home">
-        <div className="container header__container ">
-        <h5>Hello, I am </h5>
+      <ANIMATION />
+      <ANIMATION />
+
+  
+      <div className="container header__container ">
+
+        
+          
+
+        <h5 className="animate-charcter">Hello, I am </h5>
+
+
+          
 
         <div className="animationClass">
           <h1>MOH <span className="target__text">KHALID</span> MOMAND</h1>
@@ -39,20 +51,28 @@ const Header = () => {
 
 
             {/* End of Anitmation */}
+
+
+
+            
         
           <CTA />
           <HeaderSocial />
 
           <div className="me">
             <img src={PROFILE3} alt="MKM Personal " className="me__image"/>
+        
           </div>
 
 
 
 
           <div className='scroll_down__wrapper'>
-            <a href="#contact" className="scroll__down">Scroll Down</a> 
+            <a href="#contact" className="scroll__down  glow-on-hover">Scroll Down</a> 
           </div>
+
+
+        
 
         </div>
     </header>

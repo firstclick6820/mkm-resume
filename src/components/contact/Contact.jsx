@@ -7,12 +7,14 @@ import './contact.css';
 import {MdOutlineEmail} from 'react-icons/md'
 import {FaFacebookMessenger} from 'react-icons/fa'
 import {BsWhatsapp} from 'react-icons/bs';
+import ANIMATION from '../general/ANIMATION';
 
 const Contact = () => {
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact US</h2>
+
+      <h5 className='animate-charcter'>Get In Touch</h5>
+      <h2 className="animationClass">Contact ME</h2>
 
       <div className="container contact__container">
 
@@ -33,7 +35,7 @@ const Contact = () => {
             <FaFacebookMessenger className="contact__option__icon"/>
             <h4>Messanger</h4>
             <h5>Facebook</h5>
-            <a href="https://m.me/khalid_momand">Chat me</a>
+            <a href="http://m.me/mohkhalidmomand">Chat me</a>
           </article>
 
 

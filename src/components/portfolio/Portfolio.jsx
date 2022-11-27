@@ -7,13 +7,14 @@ import './portfolio.css'
 
 // Import dummy data
 import portfolio from "../../assets/data/PORTFOLIO"
+import ANIMATION from '../general/ANIMATION'
 
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Works</h5>
-      <h2>Portfolio</h2>
+      <h5 className='animate-charcter'>My Recent Works</h5>
+      <h2 className="animationClass">Portfolio</h2>
 
 
       <div className="container portfolio__container">

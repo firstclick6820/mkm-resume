@@ -4,13 +4,14 @@ import './services.css'
 
 // Import React Icons
 import {BiCheck} from 'react-icons/bi';
+import ANIMATION from '../general/ANIMATION';
 
 const Services = () => {
 
     return (
         <section id='services'>
-                <h5>What I Offer</h5>
-                <h2>Services</h2>
+                <h5 className='animate-charcter'>What I Offer</h5>
+                <h2 className="animationClass">Services</h2>
 
                 <div className="container services__container">
                     {/* First Article  */}

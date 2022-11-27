@@ -17,14 +17,16 @@ import 'swiper/css/pagination';
 
 // Import Dumy Data
 import reviews from '../../assets/data/TESTIMONIAL';
+import ANIMATION from '../general/ANIMATION';
 
 
 const Testmonials = () => {
   return (
     <section id="#testimonial">
 
-      <h5>Review From The Clients</h5>
-      <h2>Testimonials</h2>
+      
+      <h5 className='animate-charcter'>Review From The Clients</h5>
+      <h2 className="animationClass">Testimonials</h2>
 
 
       <Swiper 

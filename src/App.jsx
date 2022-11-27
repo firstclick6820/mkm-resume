@@ -11,6 +11,7 @@ import Testmonials from './components/testmonials/Testmonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/general/ScrollUp';
+import ANIMATION from './components/general/ANIMATION';
 
 
 function App() {
