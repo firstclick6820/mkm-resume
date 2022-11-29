@@ -14,8 +14,21 @@ import ScrollUp from './components/general/ScrollUp';
 import ANIMATION from './components/general/ANIMATION';
 
 
+
+
+// import all data
+import allData from './assets/data/PROFILE';
+import {languages} from './assets/data/PROFILE';
+
+import { certificates } from './assets/data/PROFILE';
+import { education } from './assets/data/PROFILE';
+import { courses } from './assets/data/PROFILE';
+
+
 function App() {
+ 
   return (
+
     <div className="container">
       <Header />
       <ScrollUp />

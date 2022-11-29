@@ -10,7 +10,7 @@ const ScrollUp = () => {
     <div className='scrollup__container'>
 
         <a href="#home" className="scrollup__link">
-            <TfiRocket className="scrollup__icon"/>
+            <TfiRocket className="scrollup__icon "/>
         </a>
     </div>
   )

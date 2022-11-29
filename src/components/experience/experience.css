@@ -51,6 +51,66 @@
 
 
 
+/*  ================================================ Working Experience Tracks style =============================== */
+.working__Expereience__wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+}
+
+
+.single__work_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    background: var(--color-bg-variant);
+   
+}
+
+.work__details {
+    display: flex;
+    padding:1em 2em;
+    flex-direction: column;
+    text-align: left;
+    background:var(--color-primary-variant);
+
+}
+.work__details > small {
+    color: var(--color-light);
+    font-size: 0.6em;
+}
+.work__details > h2 {
+    font-size: 1em;
+    line-height: 2.5;
+    
+}
+  
+.work__details > p {
+    font-size: 0.7em;
+    color: var(--color-light);
+    line-height: 1.3;
+}
+
+
+.work__responsibilites {
+    display: flex;
+    padding:1em 2em;
+    flex-direction: column;
+    text-align: left;
+  
+}
+.work__responsibilites > h2 {
+    font-size: 1em;
+}
+.work__responsibilites p {
+    display: flex;
+    font-size: 0.7em;
+    margin-left:0.5em;
+    line-height: 1.3;
+    color: var(--color-light);
+}
+/* ========================================= working Experience Tracks end */
+
+
 /* MEDIA QUERY  */
 
 
