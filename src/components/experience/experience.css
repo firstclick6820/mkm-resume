@@ -84,11 +84,11 @@
 }
 .work__details > h2 {
     font-size: 1em;
-    line-height: 2.5;
+
     
 }
   
-.work__details > p {
+.work__details > code {
     font-size: 0.7em;
     color: var(--color-light);
     line-height: 1.3;
@@ -96,10 +96,11 @@
 
 
 .work__responsibilites {
-    display: flex;
+    display: grid;
     padding:1em 2em;
-    flex-direction: column;
+    grid-auto-flow: rows;
     text-align: left;
+    
   
 }
 .work__responsibilites > h2 {
@@ -139,6 +140,14 @@
     .experience__content {
         padding: 1rem;
     }
+    .single__work_container {
+        grid-template-columns: 1fr;
+    }
+    .work__responsibilites {
+        display: flex;
+        flex-direction: column;
+     
+    }
 }
 
 
@@ -155,5 +164,14 @@
         width: 100%;
         padding:2rem 1rem;
         
+    }
+
+    .single__work_container {
+        grid-template-columns: 1fr;
+    }
+    .work__responsibilites {
+        display: flex;
+        flex-direction: column;
+     
     }
 }

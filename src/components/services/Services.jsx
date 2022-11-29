@@ -23,24 +23,21 @@ const Services = () => {
                         <ul className="service__list">
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
+                                <p>Creating Awesome Web Apps, Mobile Apps and GUI Apps.</p>
                             </li>
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
+                                <p>Creative Apps Design Using Vue Js, Angular Js, React Js, React Native and Vanila Javascript</p>
                             </li>
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
+                                <p>Fronted Design Using Bootsrap, Tailwind, Material UI, Bulma and CSS3</p>
                             </li>
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
+                                <p>GUI APPs Desing Using PyQt5 and Tkinter</p>
                             </li>
-                            <li>
-                                <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
-                            </li>
+                           
                           
                         </ul>
                     </article>
@@ -55,23 +52,15 @@ const Services = () => {
                         <ul className="service__list">
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
+                                <p>LOGO Design, Banner Design, Image Edit, Video Design, Sound Edit.</p>
                             </li>
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
+                                <p>Using Newest Technologies Such as Adobe Photoshop, Adobe Premire, Adobe After Effect, Adobe InDesign, Adobe Audition.</p>
                             </li>
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
-                            </li>
-                            <li>
-                                <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
-                            </li>
-                            <li>
-                                <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
+                                <p>Creating Awesome Design Using Online Tools and Technologies</p>
                             </li>
                           
                         </ul>
@@ -88,24 +77,17 @@ const Services = () => {
                         <ul className="service__list">
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
+                                <p>Fronted Web Development using Newest Technologies.</p>
                             </li>
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
+                                <p>Backend Web Development Using PHP, Laravel, Python, Django and Flask.</p>
                             </li>
                             <li>
                                 <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
-                            </li>
-                            <li>
-                                <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
-                            </li>
-                            <li>
-                                <BiCheck  className="service__list__icon"/>
-                                <p>Say something to display on the board.</p>
-                            </li>
+                                <p>API Development Using Node Js, Express Js and Django.</p>
+                            </li> 
+                           
                           
                         </ul>
                     </article>

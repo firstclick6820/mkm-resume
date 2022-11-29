@@ -16,10 +16,17 @@ import { BsPatchCheckFill } from 'react-icons/bs';
 // import Dummy Data
 import { frontend_experience } from '../../assets/data/EXPERIENCE';
 import { backend_experience } from '../../assets/data/EXPERIENCE';
+import { working_experiences } from '../../assets/data/EXPERIENCE';
 
 
 const Experience = () => {
-    
+  // var allTheData = document.querySelector('.summary').textContent.trim().split(',')
+  // var separateList = '<ul>'
+  // allTheData.forEach(function(value) {
+  //    separateList += '<li>' + value + '</li>';
+  // });
+  // separateList += '</ul>';
+  // document.querySelector(".commaSeparated").innerHTML = separateList;
     
   return (
     <>
@@ -76,96 +83,26 @@ const Experience = () => {
         <div className="container working__Expereience__wrapper">
 
              
+              {working_experiences.map(work => 
+                  <article className="single__work_container" key={work.id}>
 
-              <article className="single__work_container">
-
-                  <div className="work__details">
-                      <small>August 2022 - June 2022 </small>
-                      <h2>Purchase Manager</h2>
-                      <p>Diamond Packing & Filling Factory</p>
-                      <p>Dubai, UAE.</p>
-                  </div>
-
-
-                  <div className="work__responsibilites">
-                    <h2>Summary</h2>
-                    <p>Manage all accounting transactions
-                      Prepare budget forecasts
-                      Publish financial statements in time
-                      Handle monthly, quarterly and annual closings
-                      Reconcile accounts payable and receivable
-                      Ensure timely bank payments
-                      Compute taxes and prepare tax returns
-                      Manage balance sheets and profit/loss statements
-                      Report on the company’s financial health and liquidity
-                      Audit financial transactions and documents
-                      Reinforce financial data confidentiality and conduct database backups when necessary
-                      Comply with financial policies and regulations
-                      </p>
-                  </div>
-
-              </article>
+                      <div className="work__details">
+                          <small>{work.start_date} - {work.end_date}</small>
+                          <h2>{work.position}</h2>
+                          <p>{work.company}</p>
+                          <p>{work.location}</p>
+                      </div>
 
 
-              <article className="single__work_container">
+                      <div className="work__responsibilites">
+                        <h2>Summary</h2>
 
-                  <div className="work__details">
-                      <small>August 2022 -  June 2022 </small>
-                      <h2>CEO & Founder</h2>
-                      <p>MKM IT SOLUTIONS</p>
-                      <p>Dubai, UAE.</p>
-                  </div>
+                        
+                        <code className="summary">{work.summary}</code>
+                      </div>
 
-
-                  <div className="work__responsibilites">
-                    <h2>Summary</h2>
-                    <p>Manage all accounting transactions
-                      Prepare budget forecasts
-                      Publish financial statements in time
-                      Handle monthly, quarterly and annual closings
-                      Reconcile accounts payable and receivable
-                      Ensure timely bank payments
-                      Compute taxes and prepare tax returns
-                      Manage balance sheets and profit/loss statements
-                      Report on the company’s financial health and liquidity
-                      Audit financial transactions and documents
-                      Reinforce financial data confidentiality and conduct database backups when necessary
-                      Comply with financial policies and regulations
-                      </p>
-                  </div>
-
-              </article>
-
-              <article className="single__work_container">
-
-                  <div className="work__details">
-                      <small>August 2022 -  June 2022 </small>
-                      <h2>Operations Manager</h2>
-                      <p>MKM IT SOLUTIONS</p>
-                      <p>Dubai, UAE.</p>
-                  </div>
-
-
-                  <div className="work__responsibilites">
-                    <h2>Summary</h2>
-                    <p>Manage all accounting transactions
-                      Prepare budget forecasts
-                      Publish financial statements in time
-                      Handle monthly, quarterly and annual closings
-                      Reconcile accounts payable and receivable
-                      Ensure timely bank payments
-                      Compute taxes and prepare tax returns
-                      Manage balance sheets and profit/loss statements
-                      Report on the company’s financial health and liquidity
-                      Audit financial transactions and documents
-                      Reinforce financial data confidentiality and conduct database backups when necessary
-                      Comply with financial policies and regulations
-                      </p>
-                  </div>
-
-              </article>
-
-
+                  </article>
+              )}
              
         </div>
           
