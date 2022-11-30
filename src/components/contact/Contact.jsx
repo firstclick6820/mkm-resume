@@ -76,6 +76,8 @@ const Contact = () => {
       </div>
 
       <div className="space_bottom"></div>
+      <div className="space_bottom"></div>
+      <div className="space_bottom"></div>
     </section>
   )
 }
