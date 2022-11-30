@@ -61,7 +61,9 @@ input , textarea {
 }
 
 
-
+.full_width {
+    width: 100%;
+}
 
 /* MEDIA QUERY */
 

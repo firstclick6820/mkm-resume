@@ -71,7 +71,7 @@ const Contact = () => {
               <input type='email' name='email' placeholder='Email...' required/>
               <textarea name='message' rows="7" placeholder='Message' required></textarea>
 
-              <button type="sumbit" className="btn btn-primary">Send</button>
+              <button type="sumbit" className="btn btn-primary full_width">Send</button>
         </form>
       </div>
 

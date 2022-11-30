@@ -29,19 +29,22 @@ function App() {
  
   return (
 
-    <div className="container">
-      <Header />
-      <ScrollUp />
-      <Navbar />
-      <About />
-      <Experience />
-      <Services />
-      <Portfolio />
-      <Testmonials />
-      <Contact />
-  
+    <>
+      <div className="container">
+        <Header />
+        <ScrollUp />
+        <Navbar />
+        <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Testmonials />
+        <Contact />
+      </div>
 
-    </div>
+    <Footer />
+
+    </>
   );
 }
 
