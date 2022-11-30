@@ -10,20 +10,20 @@ const reviews = [
     {
         id: 1,
         avatar: USER1,
-        name: 'Khalid Momand',
-        review: "A user review is a review conducted by any person who has access to the internet and publishes their experience to a review site or social media platform following product testing or the evaluation of a service."
+        name: 'Rahim Shan',
+        review: "Being 6 years working with him, I found that he is really the coolest guy I have ever seen. Keen to learn quick and adobt new things very easily. I wish him all the best and happy life journey."
     },
     {
         id: 2,
         avatar: USER2,
-        name: 'Rahim Shan',
-        review: "A user review is a review conducted by any person who has access to the internet and publishes their experience to a review site or social media platform following product testing or the evaluation of a service."
+        name: 'Moh Ali Al Rashidi',
+        review: "Received the given project before its deadline, which stands us out of others to our clients. We really appricate your hard work and promise upon completing the project."
     },
     {
         id: 3,
         avatar: USER3,
-        name: "Rasool Darwesh",
-        review: "A user review is a review conducted by any person who has access to the internet and publishes their experience to a review site or social media platform following product testing or the evaluation of a service."
+        name: "Robina, Nasim",
+        review: "The coolest design for my personal portfolio make me oustand among other condidates. Attraction and creativity of such design really impress the employeers. Thanks again and wish you all the best."
     },
     
 ]

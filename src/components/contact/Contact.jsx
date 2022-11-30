@@ -1,15 +1,31 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import './contact.css';
 
-
+import emailjs from 'emailjs-com';
 
 // Import React Icons
 import {MdOutlineEmail} from 'react-icons/md'
 import {FaFacebookMessenger} from 'react-icons/fa'
 import {BsWhatsapp} from 'react-icons/bs';
-import ANIMATION from '../general/ANIMATION';
 
 const Contact = () => {
+  const form = useRef();
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_a3udpha', 'template_j7freao', form.current, 'W7nDObKvKP2OODXLn')
+
+
+      .then((result) => {
+          console.log(result.text);
+          e.target.reset()
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section id='contact'>
 
@@ -50,7 +66,7 @@ const Contact = () => {
 
         </div>
 
-        <form className="">
+        <form className="" ref={form} onSubmit={sendEmail}>
               <input type='text' name='name' placeholder='Fullname...' required/>
               <input type='email' name='email' placeholder='Email...' required/>
               <textarea name='message' rows="7" placeholder='Message' required></textarea>
