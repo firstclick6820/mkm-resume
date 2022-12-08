@@ -51,14 +51,14 @@ const About = () => {
                   <article className="about__card">
                       <FiUsers className="about__icon"/>
                       <h5>Clients</h5>
-                      <p>5+ Happy Clients</p>
+                      <p>15+ Happy Clients</p>
                   </article>
 
                   {/* About Content Third Card */}
                   <article className="about__card">
                       <VscFolderLibrary className="about__icon"/>
                       <h5>Projects</h5>
-                      <p>12+ completed projects</p>
+                      <p>25+ completed projects</p>
                   </article>
 
                 </div>

@@ -38,7 +38,7 @@ axios.request(options).then(function (response) {
   experiences.push(allData[0].position_groups)
 
 }).catch(function (error) {
-	console.error("not working");
+	console.error(error.message);
 });
 
 

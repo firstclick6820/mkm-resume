@@ -27,8 +27,10 @@ const Experience = () => {
   // });
   // separateList += '</ul>';
   // document.querySelector(".commaSeparated").innerHTML = separateList;
-    
+
   return (
+
+   
     <>
     <section id="experience">
   
@@ -98,7 +100,8 @@ const Experience = () => {
                         <h2>Summary</h2>
 
                         
-                        <code className="summary">{work.summary}</code>
+                        <code className="summary">
+                          { work.summary }</code>
                       </div>
 
                   </article>

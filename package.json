@@ -1,5 +1,6 @@
 {
   "name": "mkm_portfolio_site",
+  "homepage": "https://mkm-resume.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

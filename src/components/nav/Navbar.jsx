@@ -10,7 +10,8 @@ import {AiOutlineHome} from 'react-icons/ai'
 import {BiUserCircle} from 'react-icons/bi'
 import {BiBook} from 'react-icons/bi';
 import {RiServiceLine} from 'react-icons/ri';
-import {BiMessageSquareDetail} from 'react-icons/bi'
+import {BiMessageSquareDetail} from 'react-icons/bi';
+import {TbCertificate} from 'react-icons/tb';
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#home")
@@ -51,7 +52,12 @@ const Navbar = () => {
           <BiBook /></a>
 
 
-        
+        {/* Certificate Section Link */}
+        <a 
+        href="#certificate"
+        onClick={()=> setActiveNav('#certificate')}
+        className={activeNav === "#certificate" ? 'active' : ''}>
+          <TbCertificate /></a>
 
 
 
