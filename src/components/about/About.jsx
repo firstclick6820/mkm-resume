@@ -2,11 +2,9 @@ import React from 'react'
 import './about.css';
 
 
-// Import Images
-import PROFILE1 from '../../assets/images/PROFILE1.png';
-import PROFILE2 from '../../assets/images/PROFILE2.png';
-import PROFILE3 from '../../assets/images/PROFILE3.png';
+
 import PROFILE4 from '../../assets/images/PROFILE4.jpg'
+
 // Import react Icons
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
@@ -14,8 +12,6 @@ import {VscFolderLibrary} from 'react-icons/vsc';
 
 
 
-// Import Custom Components
-import ANIMATION from '../../components/general/ANIMATION'
 
 const About = () => {
   return (
@@ -67,7 +63,7 @@ const About = () => {
 
                 {/* About Content Text */}
                 <p>
-                Results-oriented and Energetic professional with 7 years of experience and proven knowledge of Cost Management, General Accountant, Business Administration, Production, and Business Operations.  Apart from my Professional career, I am a self-taught Python Developer, Web Developer, Digital Marketing specialist, and GUI designer.
+                A results-oriented professional with 7 years of experience in accounting, business administration, production, and business operations. Seeking a role as an accountant, administrator, business operations specialist, or personal assistant. Proficient in cost management, financial and business principles, and strong in analytical and organizational skills. Looking to contribute my skills and expertise to a growing organization.
                 </p>
 
                 {/* Link to the contact page */}

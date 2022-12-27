@@ -17,7 +17,7 @@ import 'swiper/css/pagination';
 
 // Import Dumy Data
 import reviews from '../../assets/data/TESTIMONIAL';
-import ANIMATION from '../general/ANIMATION';
+
 
 
 const Testmonials = () => {

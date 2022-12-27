@@ -7,7 +7,7 @@ import './portfolio.css'
 
 // Import dummy data
 import portfolio from "../../assets/data/PORTFOLIO"
-import ANIMATION from '../general/ANIMATION'
+
 
 
 const Portfolio = () => {
@@ -20,7 +20,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
 
             {portfolio.map(item => (
-                <article className="portfolio__item">
+                <article className="portfolio__item" key={item.title}>
                   <div className="portfolio__item__image">
                       <img src={item.image} alt="Portfolio" />
                   </div>

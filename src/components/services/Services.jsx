@@ -4,7 +4,7 @@ import './services.css'
 
 // Import React Icons
 import {BiCheck} from 'react-icons/bi';
-import ANIMATION from '../general/ANIMATION';
+
 
 const Services = () => {
 

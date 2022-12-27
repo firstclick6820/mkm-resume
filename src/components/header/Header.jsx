@@ -3,9 +3,6 @@ import './header.css';
 
 
 // Import Images
-
-import PROFILE1 from '../../assets/images/PROFILE1.png';
-import PROFILE2 from '../../assets/images/PROFILE2.png';
 import PROFILE3 from '../../assets/images/PROFILE3.png';
 
 

@@ -11,18 +11,7 @@ import Testmonials from './components/testmonials/Testmonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/general/ScrollUp';
-import Certificate from './components/certificates/Certificate';
 
-
-
-
-// import all data
-import allData from './assets/data/PROFILE';
-import {languages} from './assets/data/PROFILE';
-
-import { certificates } from './assets/data/PROFILE';
-import { education } from './assets/data/PROFILE';
-import { courses } from './assets/data/PROFILE';
 
 
 
